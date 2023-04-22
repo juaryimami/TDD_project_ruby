@@ -1,6 +1,7 @@
 require_relative '../solver'
 
 describe Solver do
+  let(:solver) { Solver.new }
 
   describe '#factorial' do
     context 'when number is less than zero' do
